@@ -49,7 +49,7 @@ def cbtn(
             pass
     return InlineKeyboardButton(**build_kwargs)
 
-BOT_TOKEN = "9267864071:AAHzW4yhhAKFNJc2ItDabpIQEWWqb6saFWk"
+BOT_TOKEN = "9267864071:AAGpNXGKrENIqn545ghQBv0cXDLHM7r_pWQ"
 BOT_USERNAME = "hot_dogrbot"
 
 REFERRAL_ENABLED       = True
