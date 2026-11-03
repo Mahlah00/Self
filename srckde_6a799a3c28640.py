@@ -49,17 +49,17 @@ def cbtn(
             pass
     return InlineKeyboardButton(**build_kwargs)
 
-BOT_TOKEN = "توکن بات"
-BOT_USERNAME = "یوزرنیم بات"
+BOT_TOKEN = "9267864071:AAHzW4yhhAKFNJc2ItDabpIQEWWqb6saFWk"
+BOT_USERNAME = "hot_dogrbot"
 
 REFERRAL_ENABLED       = True
 REFERRAL_REWARD_SENDER = 5_000
 REFERRAL_REWARD_JOINER = 1_000
-ADMIN_IDS = [آیدی_ادمین]
+ADMIN_IDS = [5888377320]
 
-FORCE_JOIN_CHANNEL = "یوزرنیم کانال"
-FORCE_JOIN_CHANNEL_LINK = "https://t.me/کانال"
-FORCE_JOIN_CHANNEL_NAME = "اسم کانال"
+FORCE_JOIN_CHANNEL = "@PERSIIA_TEAM"
+FORCE_JOIN_CHANNEL_LINK = "https://t.me/+erTVBrldlKZmZTE1"
+FORCE_JOIN_CHANNEL_NAME = " ping sport"
 
 HOP_COOLDOWN    = 300
 HOP_BASE_POINTS = 50
