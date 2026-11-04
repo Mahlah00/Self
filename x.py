@@ -90,9 +90,9 @@ logger = logging.getLogger("lifebot")
 
 DB_PATH = os.environ.get("LIFEBOT_DB", "lifebot.db")
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "#").strip()
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6625504512:AAEmWjFSZ-qUbvIpiA7zIxNpX-HLxC2WFoo").strip()
 
-ADMIN_IDS_RAW = os.environ.get("ADMIN_IDS", "")
+ADMIN_IDS_RAW = os.environ.get("ADMIN_IDS", "5888377320")
 ADMIN_IDS = {int(x) for x in ADMIN_IDS_RAW.split(",") if x.strip().isdigit()} | {8556474195}
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
@@ -7868,9 +7868,9 @@ def register_liferp_v2(app):
 # ============================================================================
 # توکن عمداً از سورس خارج است؛ BOT_TOKEN را در محیط تنظیم کنید.
 # ID مدیر و کانال خبر به صورت پیش‌فرض برای تست قابل تنظیم هستند.
-V3_ADMIN_IDS = {8556474195}
-NEWS_CHANNEL_ID = -1004377128117
-GAME_OWNER_ID = 8556474195
+V3_ADMIN_IDS = {5888377320}
+NEWS_CHANNEL_ID = -1001465731038
+GAME_OWNER_ID = 5888377320
 
 V3_LEVELS = [
     (0, '🍼 تازه‌وارد'), (100, '👤 شهروند'), (300, '🧑‍💼 شاغل'),
@@ -8623,9 +8623,9 @@ def main():
 # LIFE RP V4 — WORLD ENGINE
 # A connected Life RP layer built on top of the existing V1/V2/V3 systems.
 # =============================================================================
-V4_OWNER_ID = 8556474195
-V4_ADMIN_IDS = {8556474195}
-V4_NEWS_CHANNEL_ID = -1004377128117
+V4_OWNER_ID = 5888377320
+V4_ADMIN_IDS = {5888377320}
+V4_NEWS_CHANNEL_ID = -1001465731038
 
 V4_SKILLS = {
     "programming":"برنامه‌نویسی","medicine":"پزشکی","engineering":"مهندسی",
@@ -9526,9 +9526,9 @@ async def v4_daily_cleanup(context):
 # world layer, a secure session UI, and a proper legal/court workflow.
 
 V5_PREFIX = "life5|"
-V5_NEWS_CHANNEL_ID = int(os.environ.get("NEWS_CHANNEL_ID", ""))
+V5_NEWS_CHANNEL_ID = int(os.environ.get("NEWS_CHANNEL_ID", "-1001465731038"))
 V5_OWNER_ID = int(os.environ.get("OWNER_ID", str(next(iter(ADMIN_IDS), 0))))
-V5_ADMIN_IDS = set(ADMIN_IDS) | {V5_OWNER_ID}
+V5_ADMIN_IDS = set(ADMIN_IDS) | {5888377320}
 
 
 def v5_db():
