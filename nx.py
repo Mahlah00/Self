@@ -10469,7 +10469,7 @@ def main_v4():
     # ONE unified Life RP bot. Legacy functions remain available as internal
     # building blocks, but are not registered as competing user interfaces.
     v4_init_db()
-    token = os.environ.get("BOT_TOKEN", "").strip()
+    token = os.environ.get("BOT_TOKEN", "6625504512:AAEmWjFSZ-qUbvIpiA7zIxNpX-HLxC2WFoo").strip()
     if not token:
         raise SystemExit("BOT_TOKEN را در Environment Variable قرار بده.")
     init_db()
