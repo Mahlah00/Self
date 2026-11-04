@@ -30,9 +30,9 @@ os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(LOG_DIR, exist_ok=True)
 
 DB_PATH = os.getenv("DB_PATH", os.path.join(DATA_DIR, "meowie.sqlite3"))
-TOKEN = os.getenv("BOT_TOKEN", "").strip()
+TOKEN = os.getenv("BOT_TOKEN", "6625504512:AAHbru5G5Yc97C-OQ5_kbI--8VADbXUrzD0").strip()
 try:
-    ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
+    ADMIN_ID = int(os.getenv("ADMIN_ID", "5888377320"))
 except ValueError:
     raise RuntimeError("ADMIN_ID must be numeric")
 
